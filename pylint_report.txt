@@ -1,0 +1,14 @@
+************* Module cleaned_inventory_system
+cleaned_inventory_system.py:13:0: C0116: Missing function or method docstring (missing-function-docstring)
+cleaned_inventory_system.py:19:0: C0103: Function name "addItem" doesn't conform to snake_case naming style (invalid-name)
+cleaned_inventory_system.py:34:8: W0707: Consider explicitly re-raising using 'except (TypeError, ValueError) as exc' and 'raise ValueError(f'Quantity must be an integer (got {qty!r})') from exc' (raise-missing-from)
+cleaned_inventory_system.py:42:0: C0103: Function name "removeItem" doesn't conform to snake_case naming style (invalid-name)
+cleaned_inventory_system.py:54:8: W0707: Consider explicitly re-raising using 'except (TypeError, ValueError) as exc' and 'raise ValueError(f'Quantity must be an integer (got {qty!r})') from exc' (raise-missing-from)
+cleaned_inventory_system.py:66:0: C0103: Function name "getStock" doesn't conform to snake_case naming style (invalid-name)
+cleaned_inventory_system.py:72:0: C0116: Missing function or method docstring (missing-function-docstring)
+cleaned_inventory_system.py:80:11: W0718: Catching too general exception Exception (broad-exception-caught)
+cleaned_inventory_system.py:87:11: W0718: Catching too general exception Exception (broad-exception-caught)
+
+------------------------------------------------------------------
+Your code has been rated at 8.16/10 (previous run: 8.16/10, +0.00)
+
